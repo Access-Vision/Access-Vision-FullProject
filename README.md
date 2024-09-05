@@ -15,18 +15,10 @@ L'objectif est d'améliorer la mobilité des utilisateurs en leur fournissant un
 ## Structure du repository
 
 - **raspberry/** : Ce dossier contient le code pour la détection d'obstacles exécuté sur le Raspberry Pi avec YOLO.
-  - `yolo_detection.py` : Script principal pour la détection d'obstacles.
-  - `requirements.txt` : Liste des dépendances Python nécessaires pour exécuter le programme.
 
 - **IonicApp/** : Ce dossier contient le code de l'application mobile Ionic.
-  - `src/` : Code source principal de l'application.
-  - `config/` : Fichiers de configuration pour la connexion Bluetooth avec le Raspberry Pi.
-  - `www/` : Fichiers front-end pour l'interface utilisateur.
 
 - **dataset/** : Contient le dataset utilisé pour entraîner le modèle YOLO, les poids du modèle pré-entraîné, et un notebook expliquant le processus d'entraînement.
-  - `model_weights/` : Poids du modèle YOLO.
-  - `notebook.ipynb` : Notebook Jupyter expliquant l'entraînement du modèle.
-  - `dataset/` : Dataset utilisé pour le modèle.
 
 ## Fonctionnalités principales
 
