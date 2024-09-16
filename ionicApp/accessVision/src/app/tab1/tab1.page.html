@@ -1,0 +1,27 @@
+<ion-content class="ion-padding" fullscreen>
+
+  <!-- Background image -->
+  <div class="background-image"></div>
+
+  <div class="center">
+    <!-- Bienvenue text -->
+    <div class="welcome-text">
+      <h1>Bienvenue</h1>
+    </div>
+
+   
+    <ion-button (click)="connectToDevice()" expand="block" class="start-button">
+      <div>Se connecter</div>
+    </ion-button>
+
+    <ion-button  expand="block" class="start-button" routerLink="/tabs/contacter">
+      <div>Contacter le support </div>
+    </ion-button>
+
+    <ion-button  expand="block" class="start-button" (click)="openTutorial()">
+      <div>Tutoriel</div>
+    </ion-button>
+
+  </div>
+
+</ion-content>

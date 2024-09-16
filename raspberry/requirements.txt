@@ -1,0 +1,4 @@
+pybluez==0.23
+ultralytics==8.2.0
+picamera2==0.3.21
+Pillow==9.4.0

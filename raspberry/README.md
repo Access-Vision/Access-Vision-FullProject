@@ -19,10 +19,9 @@ Les informations sur les obstacles détectés sont envoyées à l'application mo
 
 Pour installer le code sur le Raspberry Pi, suivez les étapes suivantes :
 - Clonez ce repository sur votre Raspberry Pi.
-- Installer la bibliothèque yolo avec la commande \
-`pip install ultralytics`.
+- Installer les dépendances nécessaires en exécutant la commande `pip install -r requirements.txt`.
 - Assurez-vous que le Raspberry Pi est correctement configuré avec la caméra et le Bluetooth.
-- Lancez le script Python avec la commande `python main.py`.
+- Lancez le script Python avec la commande `python yolo.py`.
 
 - Pour lancer le script au démarrage du Raspberry Pi, vous pouvez effectuer la commande  `crontab -e` et ajouter la ligne suivante : \
-`@reboot python /path/to/main.py`
+`@reboot /usr/bin/python3 /path/to/raspberry/yolo.py >> /path/to/logsCrontab.log 2>&1`
